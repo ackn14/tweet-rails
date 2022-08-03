@@ -1,0 +1,16 @@
+current directory: /Applications/MAMP/htdocs/tweet-app-rails/vendor/bundle/ruby/3.1.0/gems/strscan-3.0.4/ext/strscan
+/Users/f14vn/.rbenv/versions/3.1.2/bin/ruby -I /Users/f14vn/.rbenv/versions/3.1.2/lib/ruby/3.1.0 -r ./siteconf20220802-78099-gegylh.rb extconf.rb
+checking for onig_region_memsize() in ruby.h... yes
+creating Makefile
+
+current directory: /Applications/MAMP/htdocs/tweet-app-rails/vendor/bundle/ruby/3.1.0/gems/strscan-3.0.4/ext/strscan
+make DESTDIR\= clean
+
+current directory: /Applications/MAMP/htdocs/tweet-app-rails/vendor/bundle/ruby/3.1.0/gems/strscan-3.0.4/ext/strscan
+make DESTDIR\=
+compiling strscan.c
+linking shared-object strscan.bundle
+
+current directory: /Applications/MAMP/htdocs/tweet-app-rails/vendor/bundle/ruby/3.1.0/gems/strscan-3.0.4/ext/strscan
+make DESTDIR\= install
+/usr/local/bin/ginstall -c -m 0755 strscan.bundle ./.gem.20220802-78099-30cm6e
