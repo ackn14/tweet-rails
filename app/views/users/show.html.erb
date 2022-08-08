@@ -4,6 +4,7 @@
       <p>ユーザー詳細画面です</p>
       <%= @show.name %>
       <%= @show.email %>
+      <%= link_to('編集', "/users/#{@show.id}/edit") %>
     </div>
   </div>
 </div>

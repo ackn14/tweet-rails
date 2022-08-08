@@ -3,6 +3,10 @@ Rails.application.routes.draw do
   get 'users/index' => 'users#index'
   # ユーザー詳細
   get 'users/:id' => 'users#show'
+  # ユーザー編集入力画面
+  get 'users/:id/edit' => 'users#edit'
+  # ユーザー編集実行
+  post 'users/:id/update' => 'users#update'
   # 投稿一覧
   get 'posts/index' => 'posts#index'
   # 新規投稿
