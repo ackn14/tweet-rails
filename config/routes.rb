@@ -5,6 +5,8 @@ Rails.application.routes.draw do
   get 'users/:id' => 'users#show'
   # ユーザー新規登録画面
   get "signup" => "users#new"
+  # ユーザーログイン画面
+  get "login" => "users#login"
   # ユーザー新規登録
   post "users/create" => "users#create"
   # ユーザー編集入力画面

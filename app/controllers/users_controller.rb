@@ -46,6 +46,9 @@ class UsersController < ApplicationController
       redirect_to("/users/#{@user.id}")
     else
       render("users/#{@user.id}/edit")
-    end    
+    end
+  end
+  def login
+
   end
 end
