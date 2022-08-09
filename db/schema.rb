@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2022_08_09_114232) do
+ActiveRecord::Schema[7.0].define(version: 2022_08_09_125128) do
   create_table "posts", charset: "utf8mb3", force: :cascade do |t|
     t.string "content"
     t.datetime "created_at", null: false
@@ -24,6 +24,7 @@ ActiveRecord::Schema[7.0].define(version: 2022_08_09_114232) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.string "image_name"
+    t.string "password"
   end
 
 end

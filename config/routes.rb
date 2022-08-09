@@ -7,6 +7,8 @@ Rails.application.routes.draw do
   get "signup" => "users#new"
   # ユーザーログイン画面
   get "login" => "users#login"
+  # ユーザーログイン実行
+  post "login" => "users#login_execution"
   # ユーザー新規登録
   post "users/create" => "users#create"
   # ユーザー編集入力画面
